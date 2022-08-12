@@ -20,4 +20,4 @@ driver.find_element(By.XPATH,"//*[@id='email_create']").send_keys("shivaninegi75
 driver.find_element(By.XPATH,"//*[@id='SubmitCreate']").click()
 
 #Enter personal info, address info and contact info
-driver.find_element(By.ID,'id_gender1').click()
+driver.find_element(By.ID,'id_gender1').click()                               #first radio button
